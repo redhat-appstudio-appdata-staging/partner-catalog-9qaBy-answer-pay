@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: partner-catalog-6vpv
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/psuriset-tenant/partner-catalog/partner-catalog-6vpv@sha256:86d81d2e5f0949331029559b1e9d7247c170e738a615908f0ae7629ab43502c7
+        name: my-java-springboot
+        resources: {}
+status: {}
