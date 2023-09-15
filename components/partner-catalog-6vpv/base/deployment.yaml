@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-6vpv
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/psuriset-tenant/partner-catalog/partner-catalog-6vpv@sha256:52613cbd6c8dce7473ebff608ac2b9ee448243b1442798d2158533524ba4f6b5
+      - image: quay.io/redhat-user-workloads-stage/psuriset-tenant/partner-catalog/partner-catalog-6vpv@sha256:86d81d2e5f0949331029559b1e9d7247c170e738a615908f0ae7629ab43502c7
         name: my-java-springboot
         ports:
         - containerPort: 8081
